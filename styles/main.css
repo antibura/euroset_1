@@ -1,7 +1,10 @@
-.header {
-	width: 480px;
-	height: 487px;
+.all {
+	width: 950px;
 	margin: auto;
+	}	
+
+.header {
+	height: 487px;
 	padding: 30px 0 0 470px;
 	background: url(../images/ivan.png) no-repeat #ffffff;
 	border-bottom: 1px solid #eaeaea;
@@ -29,23 +32,19 @@
 	clear: left;
 	padding-top: 10px;
 	}
-
-#orange_line {	
+	
+.services_top span {	
 	border-bottom: 2px solid #ffa633;
 	padding: 0 30px 20px 30px;
 	}
 	
 .services {
-	width: 950px;
 	height: 400px;
-	margin: auto;
 	padding-top: 30px;
 	border-bottom: 1px solid #eaeaea;
 	}
 	
 .apps {
-	width: 950px;
-	margin: auto;
 	clear: left;
 	border-top: 1px solid #eaeaea;
 	border-bottom: 1px solid #eaeaea;
@@ -62,24 +61,22 @@
 	}
 
 .footer {
-	width: 950px;
-	margin: auto;
 	background: #ffffff;
 	}
 
-.how {
-	width: 350px;
+.how, .who {
 	height: 130px;
 	margin-bottom: 25px;
+	border-bottom: 1px solid #eaeaea;
+	}
+	
+.how {
+	width: 350px;
 	padding: 10px 0 0 50px;
 	float: left;
-	border-bottom: 1px solid #eaeaea;
 	}
 
 .who {
 	width: 400px;
-	height: 130px;
-	margin-bottom: 25px;
 	padding: 10px 0 0 550px;
-	border-bottom: 1px solid #eaeaea;
 	}
