@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "HouschkaRoundedDemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("http://cdn.euroset.ru/bitrix/ttf/houschkarounded-demibold-webfont.eot?#iefix") format("embedded-opentype"), url("http://cdn.euroset.ru/bitrix/ttf/houschkarounded-demibold-webfont.woff") format("woff"), url("http://cdn.euroset.ru/bitrix/ttf/houschkarounded-demibold-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HouschkaRounded-ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("http://cdn.euroset.ru/bitrix/templates/main/fonts/houschkaroundedextrabold.eot?#iefix") format("embedded-opentype"), url("http://cdn.euroset.ru/bitrix/templates/main/fonts/houschkaroundedextrabold.woff") format("woff"), url("http://cdn.euroset.ru/bitrix/templates/main/fonts/houschkaroundedextrabold.ttf") format("truetype"), url("http://cdn.euroset.ru/bitrix/templates/main/fonts/houschkaroundedextrabold.svg#houschkaroundedextrabold") format("svg");
+}
+
+h1 {
+	font-family: HouschkaRounded-ExtraBold;
+	font-size: 26pt;
+	color: #00aaf0;
+	}
+	
+h2, h3 {
+	font-family: HouschkaRoundedDemiBold;
+	color: #010101;
+	}
+
+h2 {
+	font-size: 16pt;
+	}
+
+h3 {
+	font-size: 14pt;
+	}
+	
+p {
+	font-family: Tahoma, sans-serif;
+	font-size: 10pt;
+	color: #7e7e7e;
+	line-height: 1.8;
+	}
+
+.header p {
+	padding-bottom: 15px;
+	}
+
+.services p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	}
+
+ul {
+	list-style-type: none;
+	padding: 0 5px;
+	}
+li {
+	width: 430px;
+	float: left;
+	margin: 0 40px 0 0;
+	padding: 0 0 25px 0;
+	}
